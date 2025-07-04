@@ -1,0 +1,31 @@
+table,td,th{
+    border: 5px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: aquamarine; /*cambia el fonde de las filas impares*/
+}
+nav>ul{
+  display:flex;/*maqueta los elementos uno a la derecha del otro*/
+  list-style-type: none;/*quita los puntos de la lista ul*/
+  gap: 20px; /*espacio entre los elementos del contenedor ul*/
+}
+nav>ul>li{
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+nav>ul>li>a{
+    text-decoration: none;/*quitar subrayado*/
+    color: white;
+
+}
+nav>ul>li:hover{
+   background-color: brown;
+}
+th{
+    background-color: black;
+    color: white;
+}

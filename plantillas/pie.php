@@ -1,8 +1,9 @@
-</main>
+    </main>
     <footer>
-        <h6>Jesus Hurtado - Todos los derechos reservados.</h6>
+        <h6>Jesús Hurtado - Todos los derechos reservados.</h6>
     </footer>
-    
-
 </body>
 </html>
+<?php 
+mysqli_close($conexion);
+?>
