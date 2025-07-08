@@ -22,3 +22,5 @@ CREATE TABLE alumnos (
     fecha_nac DATE,
     email VARCHAR(100)
 );
+
+select *, Concat(nombre,' ',apellido1,' ',apellido2) from alumnos;
